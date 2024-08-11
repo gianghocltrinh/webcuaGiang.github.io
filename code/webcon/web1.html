@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng sinh nhật!</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* Video Background */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        h1 {
+            color: #ff6600;
+            text-shadow: 2px 2px #ffd700;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            margin-left: auto; /* Đẩy nội dung sang bên phải */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            margin-top: 250px;
+            font-size: 18px;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video Background -->
+    <video class="video-background" autoplay muted loop>
+        <source src="anh/cb34c122-a9f0-472b-8629-ded8ba446116.mp4" type="video/mp4">
+    </video>
+
+    <!-- Nội dung trang -->
+    <h1>Chúc mừng sinh nhật Kim Ngân!</h1>
+
+    <div class="gallery">
+        <img src="anh/mochi-peach.gif" alt="Chúc mừng sinh nhật 1">
+        <img src="anh/anh-dong-chuc-mung-sinh-nhat.gif" alt="Chúc mừng sinh nhật 2">
+        <img src="anh/1eb84f77247b6ae36da7ebc3015f6231.gif" alt="Chúc mừng sinh nhật 1">
+        <img src="anh/OIP.jpg" alt="Chúc mừng sinh nhật 1">
+        
+        
+    </div>
+    
+    <footer>Chúc Bé Chị có một ngày sinh nhật vui vẻ, tràn đầy sức khỏe, luôn luôn vui vẻ, xinh đẹp và học siuu giỏi luon nhaaa!</footer>
+
+</body>
+</html>
